@@ -48,15 +48,16 @@ Osoba se može registrovati kao student ili kao tutor.
 
 **STUDENT:**
 * prijava/registracija na sistem sa svojim pristupnim podacima
-* plaćanje karticom
+* plaćanje karticom (asinhron proces)
 * uvid u predmete, za koje sistem pruža podršku, tutore na tim predmetima, kao i ocjenu tutora
 * uvid u aktuelne akcije, odnosno popuste, ili neki pakete, oni će biti prikazani studentu na naslovnoj stranici
 * prijava za instrukcije iz bilo kojeg predmeta na kojem postoji tutor, te slobodan termin za prijavu
 * uvid u literaturu/materijale na stranici
 * ukoliko su omogućene on-site instrukcije, student mora prihvatiti i pročitati COVID – protokol
 * mogućnost ocjenjivanja tutora nakon instrukcija 
-* filtriranje/sortiranje tutora po ocjeni ili cijeni
+* filtriranje/sortiranje tutora po ocjeni ili cijeni (algoritam/asinhron proces)
 * upload i download materijala na stranici
+* pronalazak GPS lokacije održavanja instrukcija
 
 **TUTOR:**
 * prijava/registracija na sistem sa svojim pristupnim podacima. Pri registraciji, pored ličnih informacija, tutor odabire predmete (ponuđeni od strane administratora), te postavlja cijenu jednog časa svojih instrukcija
@@ -72,4 +73,16 @@ Osoba se može registrovati kao student ili kao tutor.
 * ukoliko su omogućene instrukcije uživo, tutor mora prihvatiti i pročitati COVID – protokol (u slučaju promjene vlastitog zdravstvenog stanja, tutor je dužan obustaviti instrukcije uživo)
 * mogućnost dodavanja posebnih popusta ili paketa za više predmeta samo ako on drži sve predmete u paketu 
 * upload i download materijala na stranici
+* omogućavanje GPS lokacije u slučaju instrukcija uživo 
 
+
+
+**Nefunkcionalni zahtjevi:**
+* intuitivan dizajn GUI na svakoj od stranica
+* asinhron upload i download materijala (performanse)
+* asinhrono učitavanje materijala na stranici za materijale
+* validacija unesenih podataka pri registraciji (ime, prezime, kartica,...)
+* potvrda o dovoljnoj naknadi na kartici prije ugovaranja termina instrukcija
+* osiguravanje i prenos sredstava sa kartice studenta na karticu tutora
+* dodatna sigurnost sistema je data kroz administratorovu kontrolu
+* responsive dizajn za sve uređaje i operativne sisteme
