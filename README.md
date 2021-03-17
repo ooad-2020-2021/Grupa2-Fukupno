@@ -1,12 +1,12 @@
 <h1 align="center">Grupa2-Fukupno</h1>
 <h1 align="center">TuT.ba</h1>
 
--------
+![Logo](https://i.postimg.cc/3w5bLSby/Prava-Verz.jpg)
 
-![Logo](https://i.postimg.cc/x83Fn6zs/logo.jpg)
 
-### Članovi 
 ------
+### Članovi: 
+
 1. [Samra Behić](https://github.com/Samra17)
 2. [Armin Hadžić](https://github.com/ahadzic7)
 3. [Irvin Ćatić](https://github.com/icatic1)
@@ -17,7 +17,7 @@
 
 Aplikacija za pomoć pri savladavanju predmeta sa ETF-a („TuT.ba“) nudi podšku za:
 * pronalazak tutora specijaliziranih u određenim oblastima 
-* dogovor on-line/on-site instrukcija, konsultacija
+* dogovor on-line/on-site instrukcija i konsultacija
 * pronalazak preporučene literature
 * mogućnost da budete i Vi tutor.
 
@@ -33,20 +33,22 @@ Osoba se može registrovati kao student ili kao tutor.
 * tutor
 
 
-##  Prikaz funkcionalnih i nefunkcionalnih zahtjeva
+##  Prikaz funkcionalnih i nefunkcionalnih zahtjeva:
+
+![dijagram](https://i.postimg.cc/TYZyhFPH/dijagram.jpg)
 
 **ADMINISTRATOR:**
 * kontrola tutora koji su prijavljeni na stranici
 * kontrola predmeta koji su dostupni na stranici
 * kontrola materijala koji su dostupni na stranici
-*  novododanih
+* kontrola novododanih materijala i novoprijavljenih tutora
 * prijava za tutora mora proći provjeru kod administratora 
 * dodavanje novih materijala mora proći kroz provjeru kod administratora
 * mogućnost dodavanja kredita na bankovne kartice
 
 **STUDENT:**
 * prijava/registracija na sistem sa svojim pristupnim podacima
-* placanje karticom
+* plaćanje karticom
 * uvid u predmete, za koje sistem pruža podršku, tutore na tim predmetima, kao i ocjenu tutora
 * uvid u aktuelne akcije, odnosno popuste, ili neki pakete, oni će biti prikazani studentu na naslovnoj stranici
 * prijava za instrukcije iz bilo kojeg predmeta na kojem postoji tutor, te slobodan termin za prijavu
@@ -67,7 +69,7 @@ Osoba se može registrovati kao student ili kao tutor.
 	1. UŽIVO
 	1. ONLINE
 	1. UŽIVO/ONLINE
-* ukoliko su omogućene on-site instrukcije, tutor mora prihvatiti i pročitati COVID – protokol (u slučaju promjene vlastitog zdravstvenog stanja, tutor je dužan obustaviti instrukcije uživo)
+* ukoliko su omogućene instrukcije uživo, tutor mora prihvatiti i pročitati COVID – protokol (u slučaju promjene vlastitog zdravstvenog stanja, tutor je dužan obustaviti instrukcije uživo)
 * mogućnost dodavanja posebnih popusta ili paketa za više predmeta samo ako on drži sve predmete u paketu 
 * upload i download materijala na stranici
 
