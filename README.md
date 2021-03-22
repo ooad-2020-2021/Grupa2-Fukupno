@@ -55,9 +55,9 @@ Osoba se može registrovati kao student ili kao tutor.
 * uvid u literaturu/materijale na stranici
 * ukoliko su omogućene on-site instrukcije, student mora prihvatiti i pročitati COVID – protokol
 * mogućnost ocjenjivanja tutora nakon instrukcija 
-* filtriranje/sortiranje tutora po ocjeni ili cijeni (algoritam/asinhron proces)
+* filtriranje/sortiranje tutora po ocjeni ili cijeni (algoritam)
 * upload i download materijala na stranici
-* pronalazak GPS lokacije održavanja instrukcija
+* pronalazak GPS lokacije održavanja instrukcija (vanjski uređaj)
 
 **TUTOR:**
 * prijava/registracija na sistem sa svojim pristupnim podacima. Pri registraciji, pored ličnih informacija, tutor odabire predmete (ponuđeni od strane administratora), te postavlja cijenu jednog časa svojih instrukcija
@@ -73,16 +73,13 @@ Osoba se može registrovati kao student ili kao tutor.
 * ukoliko su omogućene instrukcije uživo, tutor mora prihvatiti i pročitati COVID – protokol (u slučaju promjene vlastitog zdravstvenog stanja, tutor je dužan obustaviti instrukcije uživo)
 * mogućnost dodavanja posebnih popusta ili paketa za više predmeta samo ako on drži sve predmete u paketu 
 * upload i download materijala na stranici
-* omogućavanje GPS lokacije u slučaju instrukcija uživo 
+* omogućavanje GPS lokacije u slučaju instrukcija uživo (vanjski uređaj)
 
 
 
 **Nefunkcionalni zahtjevi:**
-* intuitivan dizajn GUI na svakoj od stranica
-* asinhron upload i download materijala (performanse)
-* asinhrono učitavanje materijala na stranici za materijale
-* validacija unesenih podataka pri registraciji (ime, prezime, kartica,...)
+
+* validacija unesenih podataka pri registraciji (forma lozinke, nemogućnost korištenja korisničkog imena koji postoji već u sistemu... )
 * potvrda o dovoljnoj naknadi na kartici prije ugovaranja termina instrukcija
-* osiguravanje i prenos sredstava sa kartice studenta na karticu tutora
-* dodatna sigurnost sistema je data kroz administratorovu kontrolu
-* responsive dizajn za sve uređaje i operativne sisteme
+* zabranjeni termini održavanja instrukcija nakon 22h i prije 7h
+* zabranjeno otkazivanje termina od strane studenta 24h prije početka istog
