@@ -3426,6 +3426,19 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAF4dVnYuMuRO5M="
 							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF4fYeZsGbYQFY=",
+							"_parent": {
+								"$ref": "AAAAAAF4coX4ezAVryw="
+							},
+							"font": "Arial;13;0",
+							"left": 392,
+							"top": 736,
+							"width": 60,
+							"height": 25,
+							"text": "[način]"
 						}
 					]
 				}
