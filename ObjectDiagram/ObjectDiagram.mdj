@@ -464,7 +464,7 @@
 											"top": 124,
 											"width": 191,
 											"height": 13,
-											"text": "-CSC = 0420",
+											"text": "-CSC = 420",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1556,7 +1556,7 @@
 											"top": 124,
 											"width": 199,
 											"height": 13,
-											"text": "-CSC = 0666",
+											"text": "-CSC = 666",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2316,7 +2316,7 @@
 											"top": 124,
 											"width": 182,
 											"height": 13,
-											"text": "-CSC = 0069",
+											"text": "-CSC = 069",
 											"horizontalAlignment": 0
 										},
 										{
@@ -7235,7 +7235,7 @@
 							},
 							"name": "CSC",
 							"visibility": "private",
-							"value": "0420"
+							"value": "420"
 						},
 						{
 							"_type": "UMLSlot",
@@ -7431,6 +7431,7 @@
 							},
 							"name": "ime",
 							"visibility": "private",
+							"type": "",
 							"value": "'Samir'"
 						},
 						{
@@ -7441,6 +7442,7 @@
 							},
 							"name": "prezime",
 							"visibility": "private",
+							"type": "",
 							"value": "'Samirovic'"
 						},
 						{
@@ -7451,6 +7453,7 @@
 							},
 							"name": "korisnickoIme",
 							"visibility": "private",
+							"type": "",
 							"value": "'tutor1'"
 						},
 						{
@@ -7461,6 +7464,7 @@
 							},
 							"name": "sifra",
 							"visibility": "private",
+							"type": "",
 							"value": "'lozinka'"
 						},
 						{
@@ -7471,6 +7475,7 @@
 							},
 							"name": "email",
 							"visibility": "private",
+							"type": "",
 							"value": "'samir.samirovic@gmail.com'"
 						},
 						{
@@ -7481,6 +7486,7 @@
 							},
 							"name": "datumRodjenja",
 							"visibility": "private",
+							"type": "",
 							"value": "\"15.9.2001\""
 						},
 						{
@@ -7645,6 +7651,7 @@
 							},
 							"name": "materijali",
 							"visibility": "private",
+							"type": "",
 							"value": "{*materijal1; *materijal2}"
 						}
 					]
@@ -7894,6 +7901,7 @@
 							},
 							"name": "materijali",
 							"visibility": "private",
+							"type": "",
 							"value": "{*materijal1; *materijal2}"
 						}
 					]
@@ -7966,7 +7974,7 @@
 							},
 							"name": "CSC",
 							"visibility": "private",
-							"value": "0666"
+							"value": "666"
 						},
 						{
 							"_type": "UMLSlot",
@@ -8290,6 +8298,7 @@
 							},
 							"name": "ime",
 							"visibility": "private",
+							"type": "",
 							"value": "'Fadil'"
 						},
 						{
@@ -8300,6 +8309,7 @@
 							},
 							"name": "prezime",
 							"visibility": "private",
+							"type": "",
 							"value": "'Fadilovic'"
 						},
 						{
@@ -8310,6 +8320,7 @@
 							},
 							"name": "korisnickoIme",
 							"visibility": "private",
+							"type": "",
 							"value": "'tutor2'"
 						},
 						{
@@ -8320,6 +8331,7 @@
 							},
 							"name": "sifra",
 							"visibility": "private",
+							"type": "",
 							"value": "'sifra'"
 						},
 						{
@@ -8330,6 +8342,7 @@
 							},
 							"name": "email",
 							"visibility": "private",
+							"type": "",
 							"value": "'fadil.fadilovic@gmail.com'"
 						},
 						{
@@ -8340,6 +8353,7 @@
 							},
 							"name": "datumRodjenja",
 							"visibility": "private",
+							"type": "",
 							"value": "\"5.12.1998\""
 						},
 						{
@@ -8466,7 +8480,7 @@
 							},
 							"name": "CSC",
 							"visibility": "private",
-							"value": "0069"
+							"value": "069"
 						},
 						{
 							"_type": "UMLSlot",
@@ -8685,6 +8699,7 @@
 							},
 							"name": "id",
 							"visibility": "private",
+							"type": "",
 							"value": "943"
 						},
 						{
