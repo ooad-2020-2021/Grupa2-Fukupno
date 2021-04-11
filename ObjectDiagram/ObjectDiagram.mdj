@@ -1638,7 +1638,7 @@
 											"font": "Arial;13;1",
 											"left": 85,
 											"top": 847,
-											"width": 295,
+											"width": 287,
 											"height": 13,
 											"underline": true,
 											"text": "instrukcija1: Instrukcija"
@@ -1674,7 +1674,7 @@
 									"font": "Arial;13;0",
 									"left": 80,
 									"top": 840,
-									"width": 305,
+									"width": 297,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF4p8kbgWHnRro="
@@ -1711,7 +1711,7 @@
 											"font": "Arial;13;0",
 											"left": 85,
 											"top": 870,
-											"width": 295,
+											"width": 287,
 											"height": 13,
 											"text": "-id = 951",
 											"horizontalAlignment": 0
@@ -1725,6 +1725,7 @@
 											"model": {
 												"$ref": "AAAAAAF4p8lgJGIH7/4="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 85,
 											"top": 885,
@@ -1742,6 +1743,7 @@
 											"model": {
 												"$ref": "AAAAAAF4p8lku2INprQ="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 85,
 											"top": 900,
@@ -1761,8 +1763,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 85,
-											"top": 915,
-											"width": 295,
+											"top": 885,
+											"width": 287,
 											"height": 13,
 											"text": "-datumOdrzavanja = \"17.4.2021\"",
 											"horizontalAlignment": 0
@@ -1778,8 +1780,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 85,
-											"top": 930,
-											"width": 295,
+											"top": 900,
+											"width": 287,
 											"height": 13,
 											"text": "-trajanje = 120",
 											"horizontalAlignment": 0
@@ -1795,8 +1797,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 85,
-											"top": 945,
-											"width": 295,
+											"top": 915,
+											"width": 287,
 											"height": 13,
 											"text": "-nacinOdrzavanja = ONLINE",
 											"horizontalAlignment": 0
@@ -1812,8 +1814,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 85,
-											"top": 960,
-											"width": 295,
+											"top": 930,
+											"width": 287,
 											"height": 13,
 											"text": "-cijena = 20.0",
 											"horizontalAlignment": 0
@@ -1829,8 +1831,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 85,
-											"top": 975,
-											"width": 295,
+											"top": 945,
+											"width": 287,
 											"height": 13,
 											"text": "-popust = 0.0",
 											"horizontalAlignment": 0
@@ -1839,16 +1841,16 @@
 									"font": "Arial;13;0",
 									"left": 80,
 									"top": 865,
-									"width": 305,
-									"height": 128
+									"width": 297,
+									"height": 98
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 80,
 							"top": 840,
-							"width": 305,
-							"height": 153,
+							"width": 297,
+							"height": 123,
 							"nameCompartment": {
 								"$ref": "AAAAAAF4p8kbgWHmC7U="
 							},
@@ -7235,6 +7237,7 @@
 							},
 							"name": "CSC",
 							"visibility": "private",
+							"type": "",
 							"value": "420"
 						},
 						{
@@ -7974,6 +7977,7 @@
 							},
 							"name": "CSC",
 							"visibility": "private",
+							"type": "",
 							"value": "666"
 						},
 						{
@@ -8480,6 +8484,7 @@
 							},
 							"name": "CSC",
 							"visibility": "private",
+							"type": "",
 							"value": "069"
 						},
 						{
