@@ -13,12 +13,12 @@ namespace TuT.ba.Models
         [Required]
         private int ID { get; set; }
         [Required]
-        private string naziv { get; set; }
+        private string Naziv { get; set; }
         [Required]
-        private string opis { get; set; }
+        private string Opis { get; set; }
         [Required]
         [NotMapped]
-        private List<Materijal>? materijali { get; set; }
+        private List<Materijal>? Materijali { get; set; }
 
     }
 }

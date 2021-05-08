@@ -20,7 +20,7 @@ namespace TuT.ba.Models
 
         [Key]
         [Required]
-        public NacinOdrzavanjaEnum nacinOdrzavanja { get; set; }
+        public NacinOdrzavanjaEnum nacinOdrzavanja { get; set; }    
 
     }
 }

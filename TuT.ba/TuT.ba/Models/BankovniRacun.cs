@@ -8,6 +8,7 @@ namespace TuT.ba.Models
 {
     public class BankovniRacun
     {
+        #region Properties
         [Required]
         [Key]
         private int ID { get; set; }
@@ -20,6 +21,7 @@ namespace TuT.ba.Models
         private int CSC { get; set; }
         [Required]
         private DateTime DatumIsteka { get; set; }
+        #endregion
 
     }
 }

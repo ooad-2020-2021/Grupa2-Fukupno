@@ -9,6 +9,7 @@ namespace TuT.ba.Models
 {
     public class Tutor:Korisnik
     {
+        #region Properties
         [Required]
         private string Slika { get; set; }
         
@@ -18,6 +19,6 @@ namespace TuT.ba.Models
         [Required]
         [NotMapped]
         private List<Tuple<Predmet,double>>? PredmetiSaCijenom { get; set; }
-
+        #endregion
     }
 }

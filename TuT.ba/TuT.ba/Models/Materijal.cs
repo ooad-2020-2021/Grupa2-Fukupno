@@ -8,11 +8,13 @@ namespace TuT.ba.Models
 {
     public class Materijal
     {
+        #region Properties
         [Key]
         [Required]
         private int ID { get; set; }
         [Required]
         private string URL { get; set; }
+        #endregion
 
     }
 }

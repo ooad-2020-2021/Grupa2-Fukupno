@@ -7,5 +7,6 @@ namespace TuT.ba.Models
 {
     interface ISortiranje
     {
+        public List<Predmet> getPredmetiSortiraniPoCijeni();
     }
 }

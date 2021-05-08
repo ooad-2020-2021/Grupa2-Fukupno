@@ -5,7 +5,11 @@ using System.Threading.Tasks;
 
 namespace TuT.ba.Models
 {
-    public class TutorAdapter
+    public class TutorAdapter : Tutor, ISortiranje
     {
+        public List<Predmet> getPredmetiSortiraniPoCijeni()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
