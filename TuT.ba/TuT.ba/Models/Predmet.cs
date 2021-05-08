@@ -9,6 +9,7 @@ namespace TuT.ba.Models
 {
     public class Predmet
     {
+        #region Properties
         [Key]
         [Required]
         private int ID { get; set; }
@@ -19,6 +20,8 @@ namespace TuT.ba.Models
         [Required]
         [NotMapped]
         private List<Materijal>? Materijali { get; set; }
+        #endregion
 
+        public Predmet() { }
     }
 }

@@ -20,6 +20,7 @@ namespace TuT.ba.Models
         [RegularExpression(@"^\d{3}-\d{3}$", ErrorMessage ="Format CSC-a mora biti xxx-xxx")]
         private int CSC { get; set; }
         [Required]
+        [DataType(DataType.Date)]
         private DateTime DatumIsteka { get; set; }
         #endregion
 

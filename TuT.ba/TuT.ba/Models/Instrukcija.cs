@@ -17,6 +17,7 @@ namespace TuT.ba.Models
         [Required]
         private Tutor Tutor { get; set; }
         [Required]
+        [DataType(DataType.Date)]
         private DateTime DatumOdrzavanja { get; set; }
         [Required]
         [Range(0, int.MaxValue, ErrorMessage ="Trajanje ne smije biti negativno!")]
@@ -29,5 +30,7 @@ namespace TuT.ba.Models
         [Required]
         private double? Popust { get; set; }
         #endregion
+
+        public Instrukcija() { }
     }
 }

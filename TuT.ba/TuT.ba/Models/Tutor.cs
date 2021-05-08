@@ -12,7 +12,6 @@ namespace TuT.ba.Models
         #region Properties
         [Required]
         private string Slika { get; set; }
-        
         private double ProsjecnaOcjena { get; set; }
         [Required]
         private NacinOdrzavanja DozvoljeniNacinRealizacije { get; set; }

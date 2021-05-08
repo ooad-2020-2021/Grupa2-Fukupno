@@ -19,6 +19,7 @@ namespace TuT.ba.Models
         [Required]
         private string KorisnickoIme { get; set; }
         [Required]
+        [DataType(DataType.Date)]
         private DateTime DatumRodjenja { get; set; }
         [Required]
         [RegularExpression(@"/(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}", 
@@ -30,6 +31,9 @@ namespace TuT.ba.Models
         [Required]
         private BankovniRacun BankovniRacun { get; set; }
         #endregion
+
+
+        public Korisnik() { }
 
     }
 }

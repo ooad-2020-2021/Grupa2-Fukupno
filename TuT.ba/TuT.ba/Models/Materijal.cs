@@ -15,6 +15,6 @@ namespace TuT.ba.Models
         [Required]
         private string URL { get; set; }
         #endregion
-
+        public Materijal() { }
     }
 }
