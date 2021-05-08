@@ -181,3 +181,4 @@ C:\Users\Home\Documents\GitHub\Grupa2-Fukupno\TuT.ba\TuT.ba\obj\Debug\netcoreapp
 C:\Users\Home\Documents\GitHub\Grupa2-Fukupno\TuT.ba\TuT.ba\obj\Debug\netcoreapp3.1\TuT.ba.Views.pdb
 C:\Users\Home\Documents\GitHub\Grupa2-Fukupno\TuT.ba\TuT.ba\obj\Debug\netcoreapp3.1\TuT.ba.csproj.CopyComplete
 C:\Users\Home\Documents\GitHub\Grupa2-Fukupno\TuT.ba\TuT.ba\obj\Debug\netcoreapp3.1\TuT.ba.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\Grupa2-Fukupno\TuT.ba\TuT.ba\obj\Debug\netcoreapp3.1\TuT.ba.csprojAssemblyReference.cache
