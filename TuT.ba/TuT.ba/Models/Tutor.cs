@@ -10,14 +10,14 @@ namespace TuT.ba.Models
     public class Tutor:Korisnik
     {
         [Required]
-        private string slika { get; set; }
+        private string Slika { get; set; }
+        
+        private double ProsjecnaOcjena { get; set; }
         [Required]
-        private double prosjecnaOcjena { get; set; }
-        [Required]
-        private NacinOdrzavanja dozvoljeniNacinRealizacije { get; set; }
+        private NacinOdrzavanja DozvoljeniNacinRealizacije { get; set; }
         [Required]
         [NotMapped]
-        private List<Tuple<Predmet,double>>? predmetiSaCijenom { get; set; }
+        private List<Tuple<Predmet,double>>? PredmetiSaCijenom { get; set; }
 
     }
 }

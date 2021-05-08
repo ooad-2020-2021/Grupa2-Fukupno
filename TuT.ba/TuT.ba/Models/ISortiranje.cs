@@ -5,8 +5,7 @@ using System.Threading.Tasks;
 
 namespace TuT.ba.Models
 {
-    interface IProxyOcjenjivanje
+    interface ISortiranje
     {
-        public Boolean OdobrenoOcjenjivanje(Instrukcija instrukcija, Student student);
     }
 }

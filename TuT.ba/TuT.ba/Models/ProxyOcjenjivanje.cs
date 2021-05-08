@@ -9,7 +9,7 @@ namespace TuT.ba.Models
     public class ProxyOcjenjivanje
     {
         [Required]
-        private bool odobrenPristup { get; set; }
+        private bool OdobrenPristup { get; set; }
 
     }
 }

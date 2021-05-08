@@ -12,14 +12,14 @@ namespace TuT.ba.Models
         [Key]
         private int ID { get; set; }
         [Required]
-        private long brojRacuna { get; set; }
+        private long BrojRacuna { get; set; }
         [Required]
-        private double stanjeRacuna { get; set; }
+        private double StanjeRacuna { get; set; }
         [Required]
         [RegularExpression(@"^\d{3}-\d{3}$", ErrorMessage ="Format CSC-a mora biti xxx-xxx")]
         private int CSC { get; set; }
         [Required]
-        private DateTime datumIsteka { get; set; }
+        private DateTime DatumIsteka { get; set; }
 
     }
 }

@@ -12,18 +12,18 @@ namespace TuT.ba.Models
         [Required]
         private int ID { get; set; }
         [Required]
-        private Student student { get; set; }
+        private Student Student { get; set; }
         [Required]
-        private Tutor tutor { get; set; }
+        private Tutor Tutor { get; set; }
         [Required]
-        private DateTime datumOdrzavanja { get; set; }
+        private DateTime DatumOdrzavanja { get; set; }
         [Required]
-        private int trajanje { get; set; }
+        private int Trajanje { get; set; }
         [Required]
-        private NacinOdrzavanja nacinOdrzavanja { get; set; }
+        private NacinOdrzavanja NacinOdrzavanja { get; set; }
         [Required]
-        private double cijena { get; set; }
+        private double Cijena { get; set; }
         [Required]
-        private double? popust { get; set; }
+        private double? Popust { get; set; }
     }
 }

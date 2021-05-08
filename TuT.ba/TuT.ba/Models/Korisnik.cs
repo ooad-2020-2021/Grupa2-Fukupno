@@ -8,27 +8,28 @@ namespace TuT.ba.Models
 {
     public abstract class Korisnik
     {
+        #region Properties
         [Required]
         [Key]
         private int ID { get; set; }
         [Required]
-        private string ime { get; set; }
+        private string Ime { get; set; }
         [Required]
-        private string prezime { get; set; }
+        private string Prezime { get; set; }
         [Required]
-        private string korisnickoIme { get; set; }
+        private string KorisnickoIme { get; set; }
         [Required]
-        private DateTime datumRodjenja { get; set; }
+        private DateTime DatumRodjenja { get; set; }
         [Required]
         [RegularExpression(@"/(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}", 
             ErrorMessage = "Sifra mora da sadrži bar jedno malo slovo, jedno veliko slovo i jedan broj, te da bude duža od 8 karaktera")]
-        private string sifra { get; set; }
+        private string Sifra { get; set; }
         [Required]
         [RegularExpression(@"^[a-z]{1,}\d{1,}@etf.unsa.ba$", ErrorMessage = "Mora biti ETF mail")]
-        private string email { get; set; }
+        private string Email { get; set; }
         [Required]
-        private BankovniRacun bankovniRacun { get; set; }
-
+        private BankovniRacun BankovniRacun { get; set; }
+        #endregion
 
     }
 }
