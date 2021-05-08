@@ -11,24 +11,24 @@ namespace TuT.ba.Models
         #region Properties
         [Key]
         [Required]
-        private int ID { get; set; }
+        public int ID { get; set; }
         [Required]
-        private Student Student { get; set; }
+        public Student Student { get; set; }
         [Required]
-        private Tutor Tutor { get; set; }
+        public Tutor Tutor { get; set; }
         [Required]
         [DataType(DataType.Date)]
-        private DateTime DatumOdrzavanja { get; set; }
+        public DateTime DatumOdrzavanja { get; set; }
         [Required]
         [Range(0, int.MaxValue, ErrorMessage ="Trajanje ne smije biti negativno!")]
-        private int Trajanje { get; set; }
+        public int Trajanje { get; set; }
         [Required]
         [EnumDataType(typeof(NacinOdrzavanja))]
-        private NacinOdrzavanja NacinOdrzavanja { get; set; }
+        public NacinOdrzavanja NacinOdrzavanja { get; set; }
         [Required]
-        private double Cijena { get; set; }
+        public double Cijena { get; set; }
         [Required]
-        private double? Popust { get; set; }
+        public double? Popust { get; set; }
         #endregion
 
         public Instrukcija() { }

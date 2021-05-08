@@ -11,13 +11,15 @@ namespace TuT.ba.Models
     {
         #region Properties
         [Required]
-        private string Slika { get; set; }
-        private double ProsjecnaOcjena { get; set; }
+        public string Slika { get; set; }
+        public double ProsjecnaOcjena { get; set; }
         [Required]
-        private NacinOdrzavanja DozvoljeniNacinRealizacije { get; set; }
+        public NacinOdrzavanja DozvoljeniNacinRealizacije { get; set; }
         [Required]
         [NotMapped]
-        private List<Tuple<Predmet,double>>? PredmetiSaCijenom { get; set; }
+        public List<Tuple<Predmet,double>>? PredmetiSaCijenom { get; set; }
         #endregion
+
+        public Tutor() { }
     }
 }

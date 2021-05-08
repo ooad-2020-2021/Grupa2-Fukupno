@@ -12,14 +12,14 @@ namespace TuT.ba.Models
         #region Properties
         [Key]
         [Required]
-        private int ID { get; set; }
+        public int ID { get; set; }
         [Required]
-        private string Naziv { get; set; }
+        public string Naziv { get; set; }
         [Required]
-        private string Opis { get; set; }
+        public string Opis { get; set; }
         [Required]
         [NotMapped]
-        private List<Materijal>? Materijali { get; set; }
+        public List<Materijal>? Materijali { get; set; }
         #endregion
 
         public Predmet() { }

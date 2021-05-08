@@ -22,5 +22,6 @@ namespace TuT.ba.Models
         [Required]
         public NacinOdrzavanjaEnum nacinOdrzavanja { get; set; }    
 
+        public NacinOdrzavanja() { }
     }
 }

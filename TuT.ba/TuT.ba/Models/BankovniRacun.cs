@@ -11,18 +11,20 @@ namespace TuT.ba.Models
         #region Properties
         [Required]
         [Key]
-        private int ID { get; set; }
+        public int ID { get; set; }
         [Required]
-        private long BrojRacuna { get; set; }
+        public long BrojRacuna { get; set; }
         [Required]
-        private double StanjeRacuna { get; set; }
+        public double StanjeRacuna { get; set; }
         [Required]
         [RegularExpression(@"^\d{3}-\d{3}$", ErrorMessage ="Format CSC-a mora biti xxx-xxx")]
-        private int CSC { get; set; }
+        public int CSC { get; set; }
         [Required]
         [DataType(DataType.Date)]
-        private DateTime DatumIsteka { get; set; }
+        public DateTime DatumIsteka { get; set; }
         #endregion
+
+        public BankovniRacun() { }
 
     }
 }

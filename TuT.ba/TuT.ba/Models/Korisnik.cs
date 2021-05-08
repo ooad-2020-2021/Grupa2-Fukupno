@@ -11,29 +11,28 @@ namespace TuT.ba.Models
         #region Properties
         [Required]
         [Key]
-        private int ID { get; set; }
+        public int ID { get; set; }
         [Required]
-        private string Ime { get; set; }
+        public string Ime { get; set; }
         [Required]
-        private string Prezime { get; set; }
+        public string Prezime { get; set; }
         [Required]
-        private string KorisnickoIme { get; set; }
+        public string KorisnickoIme { get; set; }
         [Required]
         [DataType(DataType.Date)]
-        private DateTime DatumRodjenja { get; set; }
+        public DateTime DatumRodjenja { get; set; }
         [Required]
         [RegularExpression(@"/(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}", 
             ErrorMessage = "Sifra mora da sadrži bar jedno malo slovo, jedno veliko slovo i jedan broj, te da bude duža od 8 karaktera")]
-        private string Sifra { get; set; }
+        public string Sifra { get; set; }
         [Required]
         [RegularExpression(@"^[a-z]{1,}\d{1,}@etf.unsa.ba$", ErrorMessage = "Mora biti ETF mail")]
-        private string Email { get; set; }
+        public string Email { get; set; }
         [Required]
-        private BankovniRacun BankovniRacun { get; set; }
+        public BankovniRacun BankovniRacun { get; set; }
         #endregion
 
 
-        public Korisnik() { }
 
     }
 }

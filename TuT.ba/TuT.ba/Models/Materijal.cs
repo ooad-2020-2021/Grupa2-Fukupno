@@ -11,9 +11,9 @@ namespace TuT.ba.Models
         #region Properties
         [Key]
         [Required]
-        private int ID { get; set; }
+        public int ID { get; set; }
         [Required]
-        private string URL { get; set; }
+        public string URL { get; set; }
         #endregion
         public Materijal() { }
     }
