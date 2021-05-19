@@ -141,6 +141,23 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF5hZ6CTfBATx4=",
+											"_parent": {
+												"$ref": "AAAAAAF4kyx8dABfETs="
+											},
+											"model": {
+												"$ref": "AAAAAAF5hZ6CNfA9PXA="
+											},
+											"font": "Arial;13;0",
+											"left": 709,
+											"top": 278,
+											"width": 648.6669921875,
+											"height": 13,
+											"text": "-id: int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAF4ky4mEQCHxnY=",
 											"_parent": {
 												"$ref": "AAAAAAF4kyx8dABfETs="
@@ -150,7 +167,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 278,
+											"top": 293,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "-ime: String",
@@ -167,7 +184,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 293,
+											"top": 308,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "-prezime: String",
@@ -184,7 +201,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 308,
+											"top": 323,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "-korisničkoIme: String",
@@ -201,7 +218,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 323,
+											"top": 338,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "-datumRođenja: Date Time",
@@ -218,7 +235,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 338,
+											"top": 353,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "-šifra: String",
@@ -235,7 +252,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 353,
+											"top": 368,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "-email: string",
@@ -252,7 +269,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 368,
+											"top": 383,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "-bankovniRačun: BankovniRačun",
@@ -263,7 +280,7 @@
 									"left": 704,
 									"top": 273,
 									"width": 658.6669921875,
-									"height": 113
+									"height": 128
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -286,7 +303,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 391,
+											"top": 406,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "«create»+Korisnik(ime: String, prezime: String, datumRođenja: Date Time, korisničkoIme: String, sifra: String)",
@@ -303,7 +320,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 406,
+											"top": 421,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "+getIme(): String",
@@ -320,7 +337,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 421,
+											"top": 436,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "+getPrezime(): String",
@@ -337,7 +354,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 436,
+											"top": 451,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "+getKorisničkoIme(): String",
@@ -354,7 +371,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 451,
+											"top": 466,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "+getDatumRođenja(): Date Time",
@@ -371,7 +388,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 466,
+											"top": 481,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "+getEmail(): string",
@@ -388,7 +405,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 481,
+											"top": 496,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "+getBankovniRačun(): BankovniRačun",
@@ -405,7 +422,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 496,
+											"top": 511,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "+getŠifra(): String",
@@ -422,7 +439,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 511,
+											"top": 526,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "+setIme(ime: String): void",
@@ -439,7 +456,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 526,
+											"top": 541,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "+setPrezime(prezime: String): void",
@@ -456,7 +473,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 541,
+											"top": 556,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "+setKorisničkoIme(korisničkoIme: String): void",
@@ -473,7 +490,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 556,
+											"top": 571,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "+setŠifra(šifra: String): void",
@@ -490,7 +507,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 571,
+											"top": 586,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "+setEmail(email: string): void",
@@ -507,7 +524,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 709,
-											"top": 586,
+											"top": 601,
 											"width": 648.6669921875,
 											"height": 13,
 											"text": "+setBankovniRačun(račun: BankovniRačun): void",
@@ -516,7 +533,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 704,
-									"top": 386,
+									"top": 401,
 									"width": 658.6669921875,
 									"height": 218
 								},
@@ -1532,6 +1549,23 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF5hZ+EVQPV/SY=",
+											"_parent": {
+												"$ref": "AAAAAAF4k1DsGQLuym4="
+											},
+											"model": {
+												"$ref": "AAAAAAF5hZ+EPQPSMYM="
+											},
+											"font": "Arial;13;0",
+											"left": 1925,
+											"top": 334,
+											"width": 589.5322265625,
+											"height": 13,
+											"text": "-id: int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAF4k1EdxAMTiAs=",
 											"_parent": {
 												"$ref": "AAAAAAF4k1DsGQLuym4="
@@ -1541,7 +1575,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 334,
+											"top": 349,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "-brojRačuna: long {unique}",
@@ -1558,7 +1592,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 349,
+											"top": 364,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "-stanjeRačuna: double = 0",
@@ -1575,7 +1609,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 364,
+											"top": 379,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "-CSC: int",
@@ -1592,7 +1626,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 379,
+											"top": 394,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "-datumIsteka: Date Time",
@@ -1603,7 +1637,7 @@
 									"left": 1920,
 									"top": 329,
 									"width": 599.5322265625,
-									"height": 68
+									"height": 83
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1626,7 +1660,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 402,
+											"top": 417,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "«create»+BankovniRačun(brojRačuna: long, stanjeRačuna: double, CSC: int, datumIsteka: Date Time)",
@@ -1643,7 +1677,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 417,
+											"top": 432,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "«create»+BankovniRačun(brojRačuna: long, CSC: int, datumIsteka: Date Time)",
@@ -1660,7 +1694,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 432,
+											"top": 447,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "+getBrojRačuna(): long",
@@ -1677,7 +1711,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 447,
+											"top": 462,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "+getStanjeRačuna(): double",
@@ -1694,7 +1728,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 462,
+											"top": 477,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "+getCSC(): int",
@@ -1711,7 +1745,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 477,
+											"top": 492,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "+getDatumIsteka(): Date Time",
@@ -1728,7 +1762,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 492,
+											"top": 507,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "+setBrojRačuna(brojRačuna: long): void",
@@ -1745,7 +1779,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 507,
+											"top": 522,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "+setStanjeRačuna(stranjeRačuna: double): void",
@@ -1762,7 +1796,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 522,
+											"top": 537,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "+setCSC(CSC: int): void",
@@ -1779,7 +1813,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 537,
+											"top": 552,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "+setDatumIsteka(datum: Date Time): void",
@@ -1796,7 +1830,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 552,
+											"top": 567,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "+izvrsiUplatu(racun: BankovniRacun, cijena: double): bool",
@@ -1813,7 +1847,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1925,
-											"top": 567,
+											"top": 582,
 											"width": 589.5322265625,
 											"height": 13,
 											"text": "-provjeriStanje(kolicina: double): bool",
@@ -1822,7 +1856,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 1920,
-									"top": 397,
+									"top": 412,
 									"width": 599.5322265625,
 									"height": 188
 								},
@@ -16314,6 +16348,16 @@
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
+							"_id": "AAAAAAF5hZ6CNfA9PXA=",
+							"_parent": {
+								"$ref": "AAAAAAF4kyx8cwBXTSg="
+							},
+							"name": "id: int",
+							"visibility": "private",
+							"type": ""
+						},
+						{
+							"_type": "UMLAttribute",
 							"_id": "AAAAAAF4ky4l/gCEADg=",
 							"_parent": {
 								"$ref": "AAAAAAF4kyx8cwBXTSg="
@@ -17502,6 +17546,16 @@
 						}
 					],
 					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF5hZ+EPQPSMYM=",
+							"_parent": {
+								"$ref": "AAAAAAF4k1DsGALm1AI="
+							},
+							"name": "id: int",
+							"visibility": "private",
+							"type": ""
+						},
 						{
 							"_type": "UMLAttribute",
 							"_id": "AAAAAAF4k1EduAMQeTI=",
@@ -20890,7 +20944,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5hXJUCOGbilQ="
 							},
-							"name": "kloniraj()"
+							"name": "kloniraj()",
+							"type": ""
 						}
 					]
 				},
