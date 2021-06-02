@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace TuT.ba.Models
 {
-    public class NacinOdrzavanja
-    {
-        public enum NacinOdrzavanjaEnum{
+     
+        public enum NacinOdrzavanja{
             [Display(Name = "Online")]
             Online,
             [Display(Name = "Uzivo")]
@@ -18,10 +17,5 @@ namespace TuT.ba.Models
             UzivoOnline
         }
 
-        [Key]
-        [Required]
-        public NacinOdrzavanjaEnum nacinOdrzavanja { get; set; }    
-
-        public NacinOdrzavanja() { }
-    }
+  
 }

@@ -7,6 +7,6 @@ namespace TuT.ba.Models
 {
     public class Student:Korisnik
     {
-        public Student() { }
+        public Student(): base() { }
     }
 }

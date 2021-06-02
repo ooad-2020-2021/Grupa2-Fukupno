@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
@@ -24,6 +25,7 @@ namespace TuT.ba.Models
         public int Trajanje { get; set; }
         [Required]
         [EnumDataType(typeof(NacinOdrzavanja))]
+        [DisplayName("Način održavanja:")]
         public NacinOdrzavanja NacinOdrzavanja { get; set; }
         [Required]
         public double Cijena { get; set; }

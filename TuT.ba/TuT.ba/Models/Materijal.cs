@@ -14,6 +14,9 @@ namespace TuT.ba.Models
         public int ID { get; set; }
         [Required]
         public string URL { get; set; }
+
+        [Required]
+        public Predmet predmet { get; set; }
         #endregion
         public Materijal() { }
     }

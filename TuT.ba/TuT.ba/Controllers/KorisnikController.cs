@@ -22,7 +22,7 @@ namespace TuT.ba.Controllers
         // GET: Korisnik
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Student.ToListAsync());
+            return View(await _context.Korisnik.ToListAsync());
         }
 
         // GET: Korisnik/Details/5
@@ -33,14 +33,14 @@ namespace TuT.ba.Controllers
                 return NotFound();
             }
 
-            var student = await _context.Student
+            var korisnik = await _context.Korisnik
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (student == null)
+            if (korisnik == null)
             {
                 return NotFound();
             }
 
-            return View(student);
+            return View(korisnik);
         }
 
         // GET: Korisnik/Create
@@ -54,15 +54,15 @@ namespace TuT.ba.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Ime,Prezime,KorisnickoIme,DatumRodjenja,Sifra,Email")] Student student)
+        public async Task<IActionResult> Create([Bind("ID,Ime,Prezime,KorisnickoIme,DatumRodjenja,Sifra,Email")] Korisnik korisnik)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(student);
+                _context.Add(korisnik);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(student);
+            return View(korisnik);
         }
 
         // GET: Korisnik/Edit/5
@@ -73,12 +73,12 @@ namespace TuT.ba.Controllers
                 return NotFound();
             }
 
-            var student = await _context.Student.FindAsync(id);
-            if (student == null)
+            var korisnik = await _context.Korisnik.FindAsync(id);
+            if (korisnik == null)
             {
                 return NotFound();
             }
-            return View(student);
+            return View(korisnik);
         }
 
         // POST: Korisnik/Edit/5
@@ -86,9 +86,9 @@ namespace TuT.ba.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Ime,Prezime,KorisnickoIme,DatumRodjenja,Sifra,Email")] Student student)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Ime,Prezime,KorisnickoIme,DatumRodjenja,Sifra,Email")] Korisnik korisnik)
         {
-            if (id != student.ID)
+            if (id != korisnik.ID)
             {
                 return NotFound();
             }
@@ -97,12 +97,12 @@ namespace TuT.ba.Controllers
             {
                 try
                 {
-                    _context.Update(student);
+                    _context.Update(korisnik);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!StudentExists(student.ID))
+                    if (!KorisnikExists(korisnik.ID))
                     {
                         return NotFound();
                     }
@@ -113,7 +113,7 @@ namespace TuT.ba.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(student);
+            return View(korisnik);
         }
 
         // GET: Korisnik/Delete/5
@@ -124,14 +124,14 @@ namespace TuT.ba.Controllers
                 return NotFound();
             }
 
-            var student = await _context.Student
+            var korisnik = await _context.Korisnik
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (student == null)
+            if (korisnik == null)
             {
                 return NotFound();
             }
 
-            return View(student);
+            return View(korisnik);
         }
 
         // POST: Korisnik/Delete/5
@@ -139,15 +139,15 @@ namespace TuT.ba.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var student = await _context.Student.FindAsync(id);
-            _context.Student.Remove(student);
+            var korisnik = await _context.Korisnik.FindAsync(id);
+            _context.Korisnik.Remove(korisnik);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool StudentExists(int id)
+        private bool KorisnikExists(int id)
         {
-            return _context.Student.Any(e => e.ID == id);
+            return _context.Korisnik.Any(e => e.ID == id);
         }
     }
 }

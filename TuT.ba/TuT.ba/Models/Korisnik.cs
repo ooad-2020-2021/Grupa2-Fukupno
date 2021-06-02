@@ -26,11 +26,11 @@ namespace TuT.ba.Models
         [Required]
         [RegularExpression(@"^[a-z]{1,}\d{1,}@etf.unsa.ba$", ErrorMessage = "Mora biti ETF mail")]
         public string Email { get; set; }
-        [Required]
+        
         public BankovniRacun BankovniRacun { get; set; }
         #endregion
 
-
+        public Korisnik() { }
 
     }
 }

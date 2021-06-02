@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -14,12 +15,14 @@ namespace TuT.ba.Models
         public string Slika { get; set; }
         public double ProsjecnaOcjena { get; set; }
         [Required]
+        [EnumDataType(typeof(NacinOdrzavanja))]
+        [DisplayName("Dozvoljeni način održavanja:")]
         public NacinOdrzavanja DozvoljeniNacinRealizacije { get; set; }
         [Required]
         [NotMapped]
         public List<Tuple<Predmet,double>>? PredmetiSaCijenom { get; set; }
         #endregion
 
-        public Tutor() { }
+        public Tutor(): base() { }
     }
 }
