@@ -9666,19 +9666,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Home\\.nuget\\packages\\": {}
+    "C:\\Users\\Armin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Home\\Documents\\GitHub\\Grupa2-Fukupno\\TuT.ba\\TuT.ba\\TuT.ba.csproj",
+      "projectUniqueName": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa2-Fukupno\\TuT.ba\\TuT.ba\\TuT.ba.csproj",
       "projectName": "TuT.ba",
-      "projectPath": "C:\\Users\\Home\\Documents\\GitHub\\Grupa2-Fukupno\\TuT.ba\\TuT.ba\\TuT.ba.csproj",
-      "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Home\\Documents\\GitHub\\Grupa2-Fukupno\\TuT.ba\\TuT.ba\\obj\\",
+      "projectPath": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa2-Fukupno\\TuT.ba\\TuT.ba\\TuT.ba.csproj",
+      "packagesPath": "C:\\Users\\Armin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Armin\\Documents\\GitHub\\Grupa2-Fukupno\\TuT.ba\\TuT.ba\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Armin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9753,7 +9753,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
