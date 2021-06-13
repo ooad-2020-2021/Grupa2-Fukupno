@@ -4,8 +4,10 @@
     "\\TuT.ba",
     "\\TuT.ba\\TuT.ba",
     "\\TuT.ba\\TuT.ba\\Controllers",
-    "\\TuT.ba\\TuT.ba\\Models"
+    "\\TuT.ba\\TuT.ba\\Data",
+    "\\TuT.ba\\TuT.ba\\Models",
+    "\\TuT.ba\\TuT.ba\\Views"
   ],
-  "SelectedNode": "\\TuT.ba\\TuT.ba\\Models\\Predmet.cs",
+  "SelectedNode": "\\TuT.ba\\TuT.ba.sln",
   "PreviewInSolutionExplorer": false
 }
