@@ -3,9 +3,7 @@
 
 ![Logo](https://i.postimg.cc/3w5bLSby/Prava-Verz.jpg)
 
-
-**Završen deployment aplikacije i stranici možete pristupiti preko sljedećeg linka**
-+[Web stranica](http://ahadzic7-001-site1.itempurl.com/)
+# Analiza i dizajn sistema TuT.ba
 
 ------
 ### Članovi: 
